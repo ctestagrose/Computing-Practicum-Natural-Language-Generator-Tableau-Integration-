@@ -1,0 +1,51 @@
+{
+   "Label": "Balance Sheet",
+   "Graphs": 3,
+   "X": "Year",
+   "Y": "Money",
+   "0": {
+      "Label": "Total assets",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         338516,
+         323888,
+         351002
+      ],
+      "Growth": 12486,
+      "Trend": "Increase"
+   },
+   "1": {
+      "Label": "Total liabilities",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         248028,
+         258549,
+         287912
+      ],
+      "Growth": 39884,
+      "Trend": "Increase"
+   },
+   "2": {
+      "Label": "Total stockholders\u2019 equity",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         90488,
+         65339,
+         63090
+      ],
+      "Growth": -27398,
+      "Trend": "Decrease"
+   }
+}

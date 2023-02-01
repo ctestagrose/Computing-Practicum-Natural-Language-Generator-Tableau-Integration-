@@ -1,0 +1,51 @@
+{
+   "Label": "Income",
+   "Graphs": 3,
+   "X": "Year",
+   "Y": "Money",
+   "0": {
+      "Label": "Product Sales",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         213883,
+         220747,
+         297392
+      ],
+      "Growth": 83509,
+      "Trend": "Increase"
+   },
+   "1": {
+      "Label": "Service and other Sales",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         46291,
+         53768,
+         68425
+      ],
+      "Growth": 22134,
+      "Trend": "Increase"
+   },
+   "2": {
+      "Label": "Other income, net",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         1807,
+         803,
+         258
+      ],
+      "Growth": -1549,
+      "Trend": "Decrease"
+   }
+}

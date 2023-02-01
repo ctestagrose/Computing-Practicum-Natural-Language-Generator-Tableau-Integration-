@@ -1,0 +1,81 @@
+{
+   "Label": "Expenses",
+   "Graphs": 5,
+   "X": "Year",
+   "Y": "Money",
+   "0": {
+      "Label": "Cost of Product",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         144996,
+         151286,
+         192266
+      ],
+      "Growth": 47270,
+      "Trend": "Increase"
+   },
+   "1": {
+      "Label": "Cost of Service and other",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         16786,
+         18273,
+         20715
+      ],
+      "Growth": 3929,
+      "Trend": "Increase"
+   },
+   "2": {
+      "Label": "Research and development",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         16217,
+         18752,
+         21914
+      ],
+      "Growth": 5697,
+      "Trend": "Increase"
+   },
+   "3": {
+      "Label": "Selling, general, and administrative",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         18245,
+         19916,
+         21973
+      ],
+      "Growth": 3728,
+      "Trend": "Increase"
+   },
+   "4": {
+      "Label": "Provision for income taxes",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         10481,
+         9680,
+         14527
+      ],
+      "Growth": 4046,
+      "Trend": "Increase"
+   }
+}

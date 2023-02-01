@@ -1,0 +1,18 @@
+{
+   "Label": "Retained Earnings",
+   "Graphs": 1,
+   "X": "Year",
+   "Y": "Money",
+   "Years": [
+      "2019",
+      "2020",
+      "2021"
+   ],
+   "Values": [
+      45898,
+      14966,
+      5562
+   ],
+   "Growth": -40336,
+   "Trend": "Decrease"
+}

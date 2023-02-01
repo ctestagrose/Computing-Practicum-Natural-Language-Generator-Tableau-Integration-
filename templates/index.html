@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Business Dashboard</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script src="../../lib/tableau.extensions.1.latest.js"></script>
+</head>
+<body>
+<center><h1>Natural Language Generator</h1></center>
+<center><h4>Select the business and graph from the drop down menu below</h4></center>
+
+<center><form class="grid" action="/result" method="POST">
+{% if name %}
+    <div class="post_box">
+              {% if name %}
+                <center>
+                  <h3 style="color: black;" class="let_space">"{{name}}."</h3>
+                </center>
+
+              {% endif %}
+    </div>
+{% endif %}
+        <div class="selection">
+          <label for="name">Select Company and Graph:</label>
+          <select name="company" id="name" name="name">
+              <option value="microsoft">Microsoft</option>
+              <option value="apple">Apple</option>
+          </select>
+          <label for="name"></label>
+          <select name="graph" id="name" name="name">
+              <option value="Balance Sheet 19-21">Balance Sheet 19-21</option>
+              <option value="Retained Earnings 19-21">Retained Earnings 19-21</option>
+              <option value="Income 19-21">Income 19-21</option>
+              <option value="Expenses 19-21">Expenses 19-21</option>
+              <option value="Stock Chart 19-21">Stock Chart 19-21</option>
+              <option value="Earnings Per Share 19-21">Earnings Per Share 19-21</option>
+          </select>
+          <input class="file_submit" type="Submit">
+        </div>
+</form></center>
+<!--
+<div class="row">
+    <div class="column">
+    <img src="{{ dashboard1 }}" height="100%" width="100%">
+    </div>
+    <div class="column">
+    <img src="{{ dashboard2 }}" height="100%" width="100%">
+    </div>
+    <div class="column">
+    <img src="{{ dashboard3 }}" height="100%" width="100%">
+    </div>
+</div>
+<div class="row">
+    <img src="{{ dashboard4 }}"height="100%" width="100%">
+</div>
+<div class="row">
+    <div class="column">
+    <img src="{{ dashboard5 }}" height="100%" width="100%">
+    </div>
+    <div class="column">
+    <img src="{{ dashboard6 }}" height="100%" width="100%">
+    </div>
+</div>
+-->
+</body>
+</html>

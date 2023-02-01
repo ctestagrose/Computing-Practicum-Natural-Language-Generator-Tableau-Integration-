@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 1px;
+}
+
+.post_box{
+  background-color: bisque;
+  border-color: black;
+  border-radius: 25px;
+  border: 2px solid;
+  margin: 5px;
+  height: 75%;
+  width: 75%;
+}
+
+.post_img{
+  background-color: bisque;
+  border-color: black;
+  border-radius: 25px;
+  border: 2px solid;
+  margin: 5px;
+  object-fit: cover;
+  height: 75%;
+  width: 75%;
+  animation: ease-in;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-name: antFadeIn;
+}
+
+.submit_button{
+  margin: 5px;
+}
+.selection{
+  margin:5px;
+}
