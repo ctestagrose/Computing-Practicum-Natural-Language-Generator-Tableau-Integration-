@@ -1,0 +1,36 @@
+{
+   "Label": "Earnings Per Share",
+   "Graphs": 2,
+   "X": "Year",
+   "Y": "Money",
+   "0": {
+      "Label": "Basic EPS",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         5,
+         5,
+         8
+      ],
+      "Growth": 3,
+      "Trend": "Increase"
+   },
+   "1": {
+      "Label": "Diluted EPS",
+      "Years": [
+         "2019",
+         "2020",
+         "2021"
+      ],
+      "Values": [
+         5,
+         5,
+         8
+      ],
+      "Growth": 3,
+      "Trend": "Increase"
+   }
+}
