@@ -126,7 +126,7 @@ def generate_text(model, start_string):
 
   return text
 
-def main():
+def train():
     file = open('apple.txt', encoding="utf-8")
 
     text = file.read()
@@ -321,6 +321,6 @@ def get():
     return('hello')
 
 if __name__ == '__main__':
-    #main()
-    #run_prediction()
+    train()
+    run_prediction()
     app.run(debug=True, port=5002)
